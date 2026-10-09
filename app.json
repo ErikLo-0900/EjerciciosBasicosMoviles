@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Ejercicios React Native U2",
+    "slug": "ejercicios-react-native-u2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/camaleon.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/camaleon.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/camaleon.jpg",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/camaleon.jpg"
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
