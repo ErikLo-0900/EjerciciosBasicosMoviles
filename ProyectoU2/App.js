@@ -6,7 +6,7 @@
 // Puedes alternar entre ellos sin reiniciar el servidor de Expo.
 // ==============================================================================
 
-import React, { useState } from 'react';
+import React, { useState } from './ProyectoU2/node_modules/@types/react';
 import { StatusBar } from 'expo-status-bar';
 import {
   Modal,
@@ -19,24 +19,24 @@ import {
 } from 'react-native';
 
 // --- IMPORTACIÓN DE LOS EJERCICIOS DE Doc 1 ---
-import HolaMundoBasico from './Doc1_Introduccion_y_Entorno/01_HolaMundo_Basico/App';
-import HolaMundoEstilos from './Doc1_Introduccion_y_Entorno/02_HolaMundo_Estilos/App';
-import HolaMundoBloques from './Doc1_Introduccion_y_Entorno/03_HolaMundo_Bloques_Boton/App';
-import HolaMundoCompleto from './Doc1_Introduccion_y_Entorno/04_HolaMundo_Completo_Imagen/App';
-import Reto1ComponentesNuevos from './Doc1_Introduccion_y_Entorno/06_Reto1_Componentes_Nuevos/App';
-import Reto2TypeScript from './Doc1_Introduccion_y_Entorno/07_Reto2_TypeScript/App';
+import HolaMundoBasico from './ProyectoU2/Doc1_Introduccion_y_Entorno/01_HolaMundo_Basico/App';
+import HolaMundoEstilos from './ProyectoU2/Doc1_Introduccion_y_Entorno/02_HolaMundo_Estilos/App';
+import HolaMundoBloques from './ProyectoU2/Doc1_Introduccion_y_Entorno/03_HolaMundo_Bloques_Boton/App';
+import HolaMundoCompleto from './ProyectoU2/Doc1_Introduccion_y_Entorno/04_HolaMundo_Completo_Imagen/App';
+import Reto1ComponentesNuevos from './ProyectoU2/Doc1_Introduccion_y_Entorno/06_Reto1_Componentes_Nuevos/App';
+import Reto2TypeScript from './ProyectoU2/Doc1_Introduccion_y_Entorno/07_Reto2_TypeScript/App';
 
 // --- IMPORTACIÓN DE LOS EJERCICIOS DE Doc 2 ---
-import MostrarMensaje from './Doc2_Manejo_de_Eventos/01_MostrarMensaje/App';
-import BotonPersonalizado from './Doc2_Manejo_de_Eventos/02_MostrarMensaje_BotonPersonalizado/App';
-import Contador from './Doc2_Manejo_de_Eventos/03_Contador/App';
-import SaludoTextInput from './Doc2_Manejo_de_Eventos/04_Saludo_TextInput/App';
-import OperacionesSuma from './Doc2_Manejo_de_Eventos/05_Operaciones_Suma/App';
-import OperacionesCalculadora from './Doc2_Manejo_de_Eventos/06_Operaciones_Calculadora_4Operaciones/App';
-import SwitchLampara from './Doc2_Manejo_de_Eventos/07_Switch_Lampara/App';
-import Propuesto1Switch from './Doc2_Manejo_de_Eventos/08_Propuesto1_Operaciones_con_Switch/App';
-import Propuesto2TypeScript from './Doc2_Manejo_de_Eventos/09_Propuesto2_TypeScript/App';
-import Propuesto3Personal from './Doc2_Manejo_de_Eventos/10_Propuesto3_App_Personal_Integradora/App';
+import MostrarMensaje from './ProyectoU2/Doc2_Manejo_de_Eventos/01_MostrarMensaje/App';
+import BotonPersonalizado from './ProyectoU2/Doc2_Manejo_de_Eventos/02_MostrarMensaje_BotonPersonalizado/App';
+import Contador from './ProyectoU2/Doc2_Manejo_de_Eventos/03_Contador/App';
+import SaludoTextInput from './ProyectoU2/Doc2_Manejo_de_Eventos/04_Saludo_TextInput/App';
+import OperacionesSuma from './ProyectoU2/Doc2_Manejo_de_Eventos/05_Operaciones_Suma/App';
+import OperacionesCalculadora from './ProyectoU2/Doc2_Manejo_de_Eventos/06_Operaciones_Calculadora_4Operaciones/App';
+import SwitchLampara from './ProyectoU2/Doc2_Manejo_de_Eventos/07_Switch_Lampara/App';
+import Propuesto1Switch from './ProyectoU2/Doc2_Manejo_de_Eventos/08_Propuesto1_Operaciones_con_Switch/App';
+import Propuesto2TypeScript from './ProyectoU2/Doc2_Manejo_de_Eventos/09_Propuesto2_TypeScript/App';
+import Propuesto3Personal from './ProyectoU2/Doc2_Manejo_de_Eventos/10_Propuesto3_App_Personal_Integradora/App';
 
 // Catálogo estructurado de todos los ejercicios
 const CATALOGO_EJERCICIOS = [
