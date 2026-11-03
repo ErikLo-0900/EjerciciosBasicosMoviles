@@ -6,7 +6,7 @@ import React, { useState, memo } from 'react';
 import { View, Text, TextInput, Button, FlatList, StyleSheet } from 'react-native';
 
 // -------------------------------------------------------------
-// COMPONENTE 1: Formulario (Definido dentro de App.js)
+// COMPONENTE 1: Formulario 
 // Recibe como props:
 // - producto: texto actual del input
 // - setProducto: función para actualizar el texto
